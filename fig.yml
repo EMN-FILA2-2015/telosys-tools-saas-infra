@@ -12,5 +12,3 @@ nginx:
   image: telosystoolssaas/front
   ports:
     - "10080:80"
-  links:
-    - tomcat
