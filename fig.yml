@@ -6,7 +6,7 @@ tomcat:
   links:
     - mongodb
 
-apache:
+nginx:
   image: telosystoolssaas/front
   ports:
     - "10080:80"
