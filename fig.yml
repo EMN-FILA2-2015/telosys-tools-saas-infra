@@ -8,7 +8,7 @@ tomcat:
   links:
     - mongodb
 
-#nginx:
-#  image: telosystoolssaas/front
-#  ports:
-#    - "10080:80"
+nginx:
+  image: telosystoolssaas/front
+  ports:
+    - "10080:80"
