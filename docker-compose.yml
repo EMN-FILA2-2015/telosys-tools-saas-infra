@@ -5,6 +5,6 @@ mongodb:
 tomcat:
   image: telosystoolssaas/back
   ports:
-    - "80:8080"
+    - "10080:8080"
   links:
     - mongodb
