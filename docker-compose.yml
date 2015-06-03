@@ -1,6 +1,5 @@
 mongodb:
   image: mongo:latest
-  command: mongod --storageEngine=wiredTiger
   
 tomcat:
   image: telosystoolssaas/back
