@@ -1,10 +1,10 @@
-telosysaas_mongodb:
+telosysaasmongodb:
   image: mongo:latest
   command: mongod --storageEngine=wiredTiger
   
-telosysaas_tomcat:
+telosysaastomcat:
   image: telosystoolssaas/back
   ports:
     - "10080:8080"
   links:
-    - telosysaas_mongodb
+    - telosysaasmongodb
